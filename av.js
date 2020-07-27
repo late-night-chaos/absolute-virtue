@@ -1,7 +1,7 @@
 const token = 'TOKEN_GOES_HERE';
 
 const Discord = require('discord.js');
-const client = new Discord.Client({ ws: { intents: ['GUILD_MESSAGES'] } });
+const client = new Discord.Client({ ws: { intents: ['GUILDS', 'GUILD_MESSAGES'] } });
 
 function addZero(i) {
     if (i < 10) {

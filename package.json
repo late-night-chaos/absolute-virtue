@@ -1,0 +1,15 @@
+{
+    "name": "absolute-virtue",
+    "version": "1.0.0",
+    "description": "FFXIV Server Time Bot",
+    "main": "av.js",
+    "scripts": {},
+    "keywords": [
+        "discord.js"
+    ],
+    "author": "Rosalind Dex",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^12.2.0"
+    }
+}
